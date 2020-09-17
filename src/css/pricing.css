@@ -1,0 +1,69 @@
+html, body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ffffff; }
+
+#community-plan-choices-area {
+  border-radius: 15px;
+  background-color: #4770f82d;
+  font-family: sans-serif, Arial, Helvetica;
+  border-radius: 5px;
+  margin: 55px 10px 10px 10px;
+  color: #414141;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  #community-plan-choices-area .plan-box {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px grey; }
+    #community-plan-choices-area .plan-box i {
+      font-size: 50px;
+      color: #bbbbbb; }
+    #community-plan-choices-area .plan-box h3 {
+      font-size: 30px;
+      font-weight: 700; }
+    #community-plan-choices-area .plan-box h4 {
+      font-weight: 200; }
+    #community-plan-choices-area .plan-box h2 {
+      font-size: 50px; }
+      #community-plan-choices-area .plan-box h2 #sign {
+        vertical-align: top;
+        font-size: 20px; }
+    #community-plan-choices-area .plan-box button {
+      width: 200px;
+      border: none;
+      color: white;
+      font-weight: bold;
+      font-size: 30px;
+      border-radius: 5px;
+      padding: 5px;
+      transition: .2s ease-in-out; }
+      #community-plan-choices-area .plan-box button:hover {
+        cursor: pointer; }
+  #community-plan-choices-area #basic {
+    border: 3px solid grey;
+    border-top-width: 20px; }
+    #community-plan-choices-area #basic button {
+      background-color: grey; }
+      #community-plan-choices-area #basic button:hover {
+        background-color: #cccccc; }
+  #community-plan-choices-area #premium {
+    border: 3px solid blue;
+    border-top-width: 20px; }
+    #community-plan-choices-area #premium button {
+      background-color: blue; }
+      #community-plan-choices-area #premium button:hover {
+        background-color: #6a6aff; }
+  #community-plan-choices-area #premium-recommend {
+    width: auto;
+    border: 3px solid orange;
+    border-top-width: 20px; }
+    #community-plan-choices-area #premium-recommend button {
+      background-color: orange; }
+      #community-plan-choices-area #premium-recommend button:hover {
+        background-color: #facb75; }

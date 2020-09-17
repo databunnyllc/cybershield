@@ -1,0 +1,89 @@
+html, body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+#community-plan-choices-area {
+    border-radius: 15px;
+    background-color: #4770f82d;
+    font-family: sans-serif, Arial, Helvetica;
+    border-radius: 5px;
+    margin: 55px 10px 10px 10px;
+    color: #414141;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    .plan-box {
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 1px 1px 3px grey;
+        i {
+            font-size: 50px;
+            color: #bbbbbb;
+        }
+        h3 {
+            font-size: 30px;
+            font-weight: 700;
+        }
+        h4 {
+            font-weight: 200;
+        }
+        h2 {
+            #sign {
+                vertical-align: top;
+                font-size: 20px;
+            }
+            font-size: 50px;
+        }
+        button {
+            width: 200px;
+            border: none;
+            color: white;
+            font-weight: bold;
+            font-size: 30px;
+            border-radius: 5px;
+            padding: 5px;
+            transition: .2s ease-in-out;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    #basic {
+        border: 3px solid grey;
+        border-top-width: 20px;
+        button {
+            background-color: grey;
+            &:hover {
+                background-color: #cccccc;
+            }
+        }
+    }
+    #premium {
+        border: 3px solid blue;
+        border-top-width: 20px;
+        button {
+            background-color: blue;
+            &:hover {
+                background-color: #6a6aff;
+            }
+        }
+    }
+    #premium-recommend {
+        width: auto;
+        border: 3px solid orange;
+        border-top-width: 20px;
+        button {
+            background-color: orange;
+            &:hover {
+                background-color: #facb75;
+            }
+        }
+    }
+}

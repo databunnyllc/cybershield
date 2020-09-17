@@ -1,0 +1,185 @@
+html, body {
+  width: 100%;
+  margin: auto 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif; }
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: sans-serif;
+  padding: 10px;
+  background-color: white; }
+  header #site-logo-area {
+    display: flex;
+    flex-direction: row; }
+    header #site-logo-area img {
+      width: 60px; }
+    header #site-logo-area h1 {
+      margin-left: 5px; }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    header nav a {
+      list-style-type: none;
+      color: black;
+      text-decoration: none;
+      margin-right: 20px;
+      height: 30px; }
+      header nav a:hover {
+        text-decoration: underline; }
+    header nav button {
+      background: none;
+      border: 3px solid #4242ff;
+      border-radius: 5px;
+      padding: 5;
+      color: #4242ff;
+      font-family: Helvetica, sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      height: 50px; }
+      header nav button:hover {
+        cursor: pointer; }
+
+#first-banner-area {
+  width: auto;
+  background-color: #eef0ff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row; }
+  #first-banner-area #fortress-icon-area {
+    width: auto;
+    margin-right: 100px; }
+    #first-banner-area #fortress-icon-area img {
+      width: 20vw; }
+  #first-banner-area #headline-area {
+    width: auto; }
+    #first-banner-area #headline-area h1 {
+      font-size: 3vw; }
+    #first-banner-area #headline-area p {
+      font-size: 20px;
+      font-weight: 500;
+      width: 600px;
+      line-height: 1.5; }
+
+h2 {
+  text-align: center;
+  font-size: 30px; }
+
+.feature-banner-area {
+  padding: 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #494949; }
+  .feature-banner-area .product-description {
+    width: 750px;
+    font-family: sans-serif; }
+  .feature-banner-area h1 {
+    font-size: 50px;
+    margin: 0; }
+  .feature-banner-area h3 {
+    font-size: 4vw;
+    text-shadow: 3px 3px 10px #07b9ff; }
+  .feature-banner-area p {
+    font-size: 2vw;
+    font-weight: 700; }
+  .feature-banner-area img {
+    width: 30vw; }
+
+.mini-product-banners {
+  padding: 40px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #494949; }
+  .mini-product-banners .product-description {
+    width: 750px;
+    font-family: sans-serif; }
+  .mini-product-banners img {
+    width: 25vw; }
+  .mini-product-banners h3 {
+    font-size: 4vw;
+    margin: 0;
+    text-shadow: 3px 3px 10px #07b9ff; }
+  .mini-product-banners p {
+    font-size: 2vw;
+    font-weight: 700; }
+
+#cyber-guards-banner {
+  flex-direction: column !important;
+  text-align: center;
+  background-color: black;
+  color: white; }
+  #cyber-guards-banner .product-description {
+    margin: auto;
+    width: auto; }
+  #cyber-guards-banner img {
+    width: 10vw; }
+
+.sectionTitles {
+  font-size: 40px;
+  font-family: sans-serif;
+  color: #616161;
+  text-align: center; }
+  .sectionTitles p {
+    font-weight: 700; }
+
+#achievements-container #achievements {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around; }
+  #achievements-container #achievements div {
+    width: 300px;
+    text-align: center; }
+    #achievements-container #achievements div h1 {
+      font-size: 80px;
+      font-family: sans-serif;
+      color: #469ff3;
+      margin-bottom: 0; }
+    #achievements-container #achievements div p {
+      font-family: sans-serif;
+      font-size: 20px; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+@media only screen and (max-width: 630px) {
+  #first-banner-area {
+    text-align: center; }
+    #first-banner-area h1 {
+      font-size: 30px; }
+    #first-banner-area #fortress-icon-area {
+      margin: 0; }
+      #first-banner-area #fortress-icon-area img {
+        width: 200px; }
+    #first-banner-area #headline-area h1 {
+      font-size: 30px; }
+    #first-banner-area #headline-area p {
+      display: none; }
+  .feature-banner-area h3 {
+    font-size: 40px; }
+  .feature-banner-area p {
+    font-size: 20px; }
+  .feature-banner-area img {
+    width: 100%; }
+  .mini-product-banners h3 {
+    font-size: 40px; }
+  .mini-product-banners p {
+    font-size: 20px; }
+  .mini-product-banners img {
+    width: 100%; }
+  .mini-product-banners #cyber-guard-image-area img {
+    width: 45px; } }

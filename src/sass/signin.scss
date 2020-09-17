@@ -1,0 +1,165 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+#bodyWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+#side-image {
+    width: 500px;
+    height: auto;
+    background-image: url("../images/serviceLady.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/********************************UNDER CONTSTRUCTION**************************/
+
+#form-area {
+    width: 500px;
+    margin: auto;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    h1 {
+        font-size: 50px;
+        font-weight: 200;
+    }
+
+    #info {
+        background-color: #ececec;
+        padding: 10px;
+        border-radius: 10px;
+        ul {
+            li {
+                list-style-type: none;
+                line-height: 2;
+                i {
+                    margin-right: 5px;
+                    color: #27c427;
+                }
+            }
+        }
+    }
+
+    #formSettings {
+        display: flex;
+        flex-direction: row;
+        h3 {
+            margin-right: 10px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        h3:nth-child(1) {
+            border-bottom: 3px solid #3f82ff;
+        }
+    }
+
+    #forms-container {
+        form {
+            .form-inputs {
+                display: flex;
+                flex-direction: column;
+                label {
+                    font-size: 15px;
+                    margin-top: 5px;
+                }
+                .input-types {
+                    font-size: 30px;
+                }
+                #rememberMeContainer {
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 10px;
+                    p {
+                        margin: 0;
+                        margin-right: 10px;
+                    }
+                    a {
+                        margin-top: 15px;
+                        margin-left: 5px;
+                        margin: 0;
+                    }
+                }
+                input[type=submit] {
+                    border: none;
+                    font-size: 30px;
+                    color: white;
+                    font-weight: bold;
+                    background-color: #dadada;
+                    padding: 5px;
+                    border-radius: 5px;
+                    transition: .3s ease-in-out;
+                    &:hover {
+                        cursor: pointer;
+                        color: black;
+                    }
+                }
+            }
+            #divider {
+                text-align: center;
+            }
+        }
+        /** THE SOCIAL NETWORK BUTTONS AT END OF FORM */
+        #social-logins {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+            button {
+                margin-right: 10px;
+                font-size: 20px;
+                border: none;
+                color: white;
+                padding: 5px;
+                border-radius: 3px;
+                i {
+                    margin-right: 3px;
+                }
+                &:nth-child(1) {
+                    background-color: #0077ff;
+                }
+                &:nth-child(2) {
+                    background-color: #1c2aac;
+                }
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+        
+        #form2 {
+            display: none;
+        }
+    }
+}
+
+footer {
+   background-color: black;
+   height: 500px;
+   width: auto;
+   color: white;
+
+   #footer-contents {
+       margin-top: 50px;
+       display: flex;
+       font-family: sans-serif;
+       flex-wrap: wrap;
+       .lists {
+           .list-titles {
+               padding-bottom: 30px;
+               list-style-type: none;
+               font-weight: bold;
+               text-transform: uppercase;
+           }
+           li {
+               list-style-type: none;
+           }
+       }
+   }
+}
